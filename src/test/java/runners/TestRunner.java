@@ -13,7 +13,8 @@ import org.testng.annotations.DataProvider;
         		  "html:target/cucumber-report.html",     
         		  "json:target/cucumber-report.json",     
         		  "rerun:target/rerun.txt",               
-        		  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" 
+        		  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" ,
+        		  "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         		    }
 )
 public class TestRunner extends AbstractTestNGCucumberTests {

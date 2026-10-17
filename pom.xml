@@ -81,7 +81,13 @@
 			<artifactId>extentreports-cucumber7-adapter</artifactId>
 			<version>1.10.1</version>
 		</dependency>
-        <!-- Source:
+		<plugin>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-maven</artifactId>
+			<version>2.11.2</version>
+		</plugin>
+
+		<!-- Source:
 		https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
 		<dependency>
 			<groupId>io.qameta.allure</groupId>
@@ -89,6 +95,7 @@
 			<version>2.35.5</version>
 			<scope>compile</scope>
 		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>
