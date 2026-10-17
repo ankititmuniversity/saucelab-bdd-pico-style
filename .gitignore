@@ -1,0 +1,14 @@
+# IDE and project settings
+.settings/
+.classpath
+.project
+
+# Build and test outputs
+target/
+test-output/
+
+# Logs and reports
+logs/
+reports/
+screenshots/
+allure-results/
